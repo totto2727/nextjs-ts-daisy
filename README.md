@@ -1,6 +1,6 @@
 # nextjs-ts-daisy
 ## 概要
-Next.jsに諸々を詰め込んだテンプレートになります。バックエンドにはAWSのAmplifyを使うことを想定しており、初めからでCognitoで認証を行えるようにしています。不要であれば、_`app.tsx`や`hooks`ディレクトリを空にした上で、`package.json`から関連ライブラリを削除してください。
+Firebase版です。`.env.template`に従って、`.env.local`にFirebaseのAPI Keyを入力してください。初めからGoogle認証を行えるようにしています。
 
 ## 使い方
 ```bash
