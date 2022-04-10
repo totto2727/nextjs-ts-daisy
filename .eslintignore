@@ -8,4 +8,5 @@ package.json
 jest.setup.js
 jest.config.js
 config.js
-*.json
+renovate.json
+tsconfig.json
